@@ -12,7 +12,7 @@ body{
     max-width: 500px;
 }
 .my-custom-nav:hover{
-    box-shadow: 0 4px 20px 0 rgba(229, 227, 239, 0.4);
+    box-shadow: 0 4px 20px 0 rgba(77, 150, 252, 0.4);
 }
 .text-head-style{
     color: #d8e5f4;
@@ -30,12 +30,12 @@ body{
 }
 .glow-card-col {
     border: 1px solid #222222; 
-    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 183, 255, 0.1);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .glow-card-col:hover {
-    box-shadow: 0 6px 25px rgba(255, 255, 255, 0.18);
+    box-shadow: 0 6px 25px rgba(82, 180, 241, 0.18);
 }
 .incard-text-style{
     color: #c2d8e4;
@@ -53,4 +53,15 @@ body{
     
     mix-blend-mode: screen; 
     
+}
+
+.tag-body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/assets/bg2.jpg');
+    background-size: cover;      
+    background-position: center;    
+    background-repeat: no-repeat;   
+    background-attachment: fixed;   
+    background-color: black;
+    min-height: 100vh;
+    margin: 0;
 }
